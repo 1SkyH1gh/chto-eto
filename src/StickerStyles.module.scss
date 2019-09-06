@@ -1,0 +1,38 @@
+.sticker{
+  display: grid;
+  width:300px;
+  border:1px solid black;
+  border-radius: 15px;
+  .task_icon{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  font-size: 22px;
+  }
+  .status{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    .pow{
+      width:8px;
+      height:8px;
+      background: cornflowerblue;
+      border-radius: 10px;
+      font-size: 16px;
+      color:grey;
+    }
+  }
+  .value{
+    margin-top: 8%;
+    font-size:24px;
+    .grow{
+      margin-left: 0.4%;
+      position: absolute;
+      font-size: 12px;
+
+    }
+  }
+}

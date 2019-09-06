@@ -1,0 +1,25 @@
+.container{
+  height:400px;
+  width:100%;
+  display: grid;
+  grid-template-columns:40% 40% 20%;
+  -webkit-box-shadow: 0px 3px 10px -1px rgba(135,128,189,0.6);
+  -moz-box-shadow: 0px 3px 10px -1px rgba(135,128,189,0.6);
+  box-shadow: 0px 3px 10px -1px rgba(135,128,189,0.6);
+  .space{
+
+  height:100%;
+  }
+  .player{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+  }
+  .playerControl{
+  height:100%;
+    -webkit-box-shadow: 0px 3px 10px -1px rgba(135,128,189,0.6);
+    -moz-box-shadow: 0px 3px 10px -1px rgba(135,128,189,0.6);
+    box-shadow: 0px 3px 10px -1px rgba(135,128,189,0.6);
+  }
+}

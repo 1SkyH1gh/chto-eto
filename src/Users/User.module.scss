@@ -1,0 +1,49 @@
+.user{
+  width:300px;
+  border:1px solid cornflowerblue;
+  border-radius: 10px;
+ display:flex;
+  justify-content: space-between;
+
+  flex-direction: row;
+  .avatar{
+    margin-top: 2%;
+    margin-left: 4%;
+    width:64px;
+    height:64px;
+    border-radius: 15px;
+  }
+  .descr{
+    margin-left: 2%;
+
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    .name{
+
+
+
+    }
+    .tag{
+      font-size:14px;
+      color:darkgrey;
+
+    }
+    .status{
+      font-size: 13px;
+
+    }
+
+
+  }
+  .follow{
+    margin-right: 4%;
+align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+
